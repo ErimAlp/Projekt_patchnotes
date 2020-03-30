@@ -3,7 +3,8 @@ body{
     color: #BABBC7;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    
+   
 }
 
 h1{
@@ -23,6 +24,29 @@ p{
     font-size: 1em;
 }
 
+nav ul{
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 4px 0px;
+  background: linear-gradient(180deg, rgba(255,232,155,1) 0%, rgba(208,160,0,1) 100%);
+
+}
+
+nav li, a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 6px 0 6px;
+  color: #0B0D21;
+  font-weight: bold;
+  font-size: 1.3em;
+  
+  
+}
+
+
 * {
     box-sizing: border-box;
   }
@@ -35,7 +59,7 @@ p{
 .row:after {
     content: "";
     display: table;
-    clear: both
+    clear: 
   }
 
   /* 2/3 column */
